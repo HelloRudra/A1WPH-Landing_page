@@ -1,20 +1,22 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: "Inter", sans-serif;
 }
 
 header {
     padding: 60;
-
+    background-color: white;
 }
 
 nav{
 
-   background-color: white;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-between  ;
    max-width: 1000px;
    margin: auto;
+   padding: 20px 30px;
+   align-items: center;
 }
 
 ul{
@@ -22,5 +24,26 @@ ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    gap: 10px;
+    gap: 20px;
+    font-weight: 300;
+    
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+.common-btn {
+    background: #1D4ED8;
+    padding: 14px 32px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    border: none;
+
+
 }
