@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 60;
+
+}
+
+nav{
+
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+   max-width: 1000px;
+   margin: auto;
+}
+
+ul{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+}
